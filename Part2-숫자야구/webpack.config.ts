@@ -38,6 +38,7 @@ const config: Configuration = {
     publicPath: "/dist",
   },
   devServer: {
+    port: 8080,
     devMiddleware: { publicPath: "/dist" },
     static: { directory: path.resolve(__dirname) },
     hot: true,

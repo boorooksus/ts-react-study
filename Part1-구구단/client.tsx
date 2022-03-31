@@ -4,6 +4,6 @@
 import * as React from "react";
 import * as ReactDom from "react-dom";
 
-import GuGuDan from "./구구단/GuGuDan";
+import GuGuDan from "./GuGuDan";
 
 ReactDom.render(<GuGuDan />, document.querySelector("#root"));
